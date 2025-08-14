@@ -9,9 +9,11 @@ public class VerificIdade {
         System.out.print("Digite sua idade: ");
         idade = scanner.nextInt();
 
-        // Verificação da idade para determinar o acesso ao conteúdo
+        // Verificação da idade para conceder acesso aos vídeos
         if (idade >= 18) {
-            System.out.println("Acesso concedido!");
+            System.out.println("Acesso concedido! Você pode assistir aos vídeos.");
+        } else {
+            System.out.println("Desculpe, você não tem permissão para assistir aos vídeos.");
         }
     }
 }
